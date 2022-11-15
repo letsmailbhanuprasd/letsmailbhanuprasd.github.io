@@ -15,11 +15,9 @@ title: Data science news
 body {
   font-family: Arial;
   padding: 20px
-  <style>
-p {
+  
   background-image: desert.jpg;
-}
-</style>
+
 }
 
 /* Header/Blog Title */
