@@ -14,8 +14,12 @@ title: Data science news
 /* Add a gray background colobbr with some padding */
 body {
   font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
+  padding: 20px
+  <style>
+p {
+  background-image: desert.jpg;
+}
+</style>
 }
 
 /* Header/Blog Title */
