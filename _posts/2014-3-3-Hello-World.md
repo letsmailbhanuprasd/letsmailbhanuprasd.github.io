@@ -6,7 +6,7 @@ title: Data science news
 <html>
 <body>
 
-<p>This is a paragraph.</p>
+<p>This is a paragrapyh.</p>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 
