@@ -2,178 +2,258 @@
 layout: post
 title: Data science news
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-<section class="section gray-bg" id="resume">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="section-title">
-                            <h2>Experience</h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 m-15px-tb">
-                        <div class="resume-box">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-user-graduate"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-user-graduate"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-user-graduate"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 m-15px-tb">
-                        <div class="resume-box">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-briefcase"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-briefcase"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-briefcase"></i>
-                                    </div>
-                                    <span class="time">2019 - Present</span>
-                                    <h5>Art Director - Facebook Inc</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-body{margin-top:20px;}
-.section {
-    padding: 100px 0;
-    position: relative;
-}
-.gray-bg {
-    background-color: #f5f5f5;
-}
-.section-title h2 {
-    font-weight: 700;
-    color: #20247b;
-    font-size: 45px;
-    margin: 0 0 15px;
-    border-left: 5px solid #fc5356;
-    padding-left: 15px;
-}
-.section-title {
-    padding-bottom: 45px;
-}
-.section-title p {
-    margin: 0;
-    font-size: 18px;
+body{
+    background-color: #f7f7f7;
+    margin-top:20px;
 }
 
-/* Resume Box
----------------------*/
-.resume-box {
-  background: #ffffff;
-  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
-  border-radius: 10px;
-}
-.resume-box ul {
-  margin: 0;
-  padding: 30px 20px;
-  list-style: none;
-}
-.resume-box li {
-  position: relative;
-  padding: 0 20px 0 60px;
-  margin: 0 0 30px;
-}
-.resume-box li:last-child {
-  margin-bottom: 0;
-}
-.resume-box li:after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 20px;
-  border-left: 1px dashed #fc5356;
-  bottom: 0;
-}
-.resume-box .icon {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  color: #fc5356;
-  line-height: 40px;
-  background: #ffffff;
-  text-align: center;
-  z-index: 1;
-  border: 1px dashed;
-  border-radius: 50%;
-}
-.resume-box .time {
-  background: #fc5356;
-  color: #ffffff;
-  font-size: 10px;
-  padding: 2px 10px;
-  display: inline-block;
-  margin-bottom: 12px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-.resume-box h5 {
-  font-weight: 700;
-  color: #20247b;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-.resume-box p {
-  margin: 0;
+.main-timeline {
+    position: relative
 }
 
-.resume-box li:after {
+.main-timeline:before {
     content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
     position: absolute;
-    top: 0px;
-    left: 20px;
-    border-left: 1px dashed #fc5356;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
     bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
 }
 
 
