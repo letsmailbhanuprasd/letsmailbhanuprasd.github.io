@@ -11,7 +11,7 @@ title: Data science news
   box-sizing: border-box;
 }
 
-/* Add a gray background color with some padding */
+/* Add a gray background colobbr with some padding */
 body {
   font-family: Arial;
   padding: 20px;
