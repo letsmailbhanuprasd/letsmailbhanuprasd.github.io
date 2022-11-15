@@ -10,6 +10,9 @@ title: Data science news
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 
+<img src="desert.jpg" alt="Trulli" width="500" height="333">
+
+
 </body>
 </html>
 
