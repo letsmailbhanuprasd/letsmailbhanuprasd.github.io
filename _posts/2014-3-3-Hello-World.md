@@ -4,7 +4,7 @@ layout: page
 ---
 date:24-3-2007
 ---
-author:bhanu
+author:bhanu8
 ---
 title: Data science news
 ---
