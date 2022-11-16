@@ -2,6 +2,7 @@
 layout: post
 title: Data science news
 ---
+![_config.yml]({{ Data science news.https://letsmailbhanuprasd.github.io }}/images/config.png)
 body{
     background-color: #f7f7f7;
     margin-top:20px;
